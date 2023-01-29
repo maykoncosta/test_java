@@ -16,11 +16,7 @@ public class Application {
 	public static void main(String[] args) {
 
 		SpringApplication.run(Application.class, args);
-
-		RestTemplate rest = new RestTemplate();
-		String url = "https://fipeapi.appspot.com/api/1/carros/veiculo/" + "chevrolet" + "/" + "sedan" + "/" + "2010" + ".json";
-//		var response = rest.getForObject(url, String.class);
-//		System.out.println(response);
+		git
 	}
 
 }

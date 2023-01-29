@@ -7,9 +7,14 @@ import javax.persistence.Id;
 
 import lombok.Data;
 
+import java.io.Serializable;
+
 @Data
 @Entity
-public class Brand {
+public class Brand implements Serializable {
+
+    private static final long serialVersionUID = 1L;
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
