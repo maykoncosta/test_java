@@ -10,6 +10,8 @@
     <br />
   
 [![Swagger](https://img.shields.io/badge/-Swagger-%23Clojure?style=for-the-badge&logo=swagger&logoColor=white)](http://localhost:8080/swagger-ui/index.html#/)
+</br>
+alterar para /v2/api-docs
 
 </div>
 <br/>
